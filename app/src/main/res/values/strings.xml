@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">People Development</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <array name="document">
+        <item>Adhar Card</item>
+        <item>Pan Card</item>
+        <item>Voter ID</item>
+        <item>Driving License</item>
+    </array>
+
+    <array name="accountType">
+        <item>Select Account Name</item>
+        <item>Loan</item>
+        <item>RD (Recurring Deposit)</item>
+        <item>Saving</item>
+        <item>DDS (Daily Deposite Scheme)</item>
+    </array>
+
+    <array name="SavingType">
+        <item>Select Saving Type</item>
+        <item>Payment</item>
+        <item>Withdraw</item>
+    </array>
+
+    <array name="paymentType">
+        <item>Select Payment Type</item>
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Neft</item>
+        <item>Cash/Cheque</item>
+        <item>Cheque/Neft</item>
+        <item>Cash/Neft</item>
+        <item>Cash/Cheque/Neft</item>
+    </array>
+
+    <array name="choosestate">
+        <item>Choose State</item>
+        <item>Madhya Pradesh</item>
+        <item>Rajasthan</item>
+    </array>
+
+    <array name="choosecity">
+        <item>Choose City</item>
+        <item>Indore</item>
+    </array>
+
+    <array name="choosedays">
+        <item>Choose Days</item>
+        <item>180 Days</item>
+        <item>365 Days</item>
+        <item>730 Days</item>
+    </array>
+
+    <array name="chooseYear">
+        <item>Select Duration</item>
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+        <item>4 Year</item>
+        <item>5 Year</item>
+    </array>
+
+    <array name="selectduration">
+        <item>Select Duration</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+        <item>4 Year</item>
+        <item>5 Year</item>
+    </array>
+
+    <array name="selectRdDuration">
+        <item>Select Duration</item>
+        <item>12 Months</item>
+        <item>24 Months</item>
+        <item>36 Months</item>
+        <item>48 Months</item>
+        <item>60 Months</item>
+    </array>
+
+</resources>

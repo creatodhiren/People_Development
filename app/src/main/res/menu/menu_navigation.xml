@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Open Account">
+        <menu>
+            <item
+                android:id="@+id/nav_saving"
+                android:icon="@drawable/image3"
+                android:title="For Saving" />
+            <item
+                android:id="@+id/nav_fd"
+                android:icon="@drawable/image4"
+                android:title="For FD" />
+            <item
+                android:id="@+id/nav_rd"
+                android:icon="@drawable/image6"
+                android:title="For RD" />
+            <item
+                android:id="@+id/nav_dds"
+                android:icon="@drawable/image5"
+                android:title="For DDS" />
+            <item
+                android:id="@+id/nav_mis"
+                android:icon="@drawable/image2"
+                android:title="For MIS" />
+            <item
+                android:id="@+id/nav_myaccount"
+                android:icon="@drawable/image8"
+                android:title="My Account" />
+
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Help" />
+            <item
+                android:id="@+id/share_app"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Share App" />
+            <item
+                android:id="@+id/rate_app"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

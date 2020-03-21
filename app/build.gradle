@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    dataBinding {
+        enabled true
+    }
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.creatoweb.peopledevelopment"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+
+    implementation 'com.google.android.material:material:1.0.0-beta01'
+
+    //for circle image
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta01'
+
+    implementation 'androidx.navigation:navigation-fragment:2.1.0-alpha05'
+    implementation 'androidx.navigation:navigation-ui:2.1.0-alpha05'
+
+
+    // networking libraries
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+
+    //picasso library for get image from url
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //pix for image pic from gallary
+    implementation 'com.fxn769:pix:1.4.4'
+
+    //Image Croper
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //circular image
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    //image indicator use in viewpager
+    implementation 'com.romandanylyk:pageindicatorview:1.0.1'
+
+    //auto image slider
+    implementation 'com.github.smarteist:autoimageslider:1.2.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

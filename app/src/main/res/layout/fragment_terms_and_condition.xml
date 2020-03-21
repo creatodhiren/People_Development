@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+    </data>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="1) Registration fees is not refundable."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="2) The Registration, 10 Rs share and the financial services which we providing to the members, after the become the member of the company registered under section 406 of the company Act 2013, it automatically come under the supervision of the MCA our company DHANADHIP IINDIA NIDHI LIMITED the main objective is to encourage  saving habits."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="3) I/We further understand that the interest applicable ruling rates on the date of maturity."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="4) I/We have read and understood the rules and regulations of the product(s) /service (s) / facilities opted for and agree to abide by the terms and conditions relating to the conduct thereof and also any change brought about therein from time to time."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="5) I/We hereby declare that only legitimate dues in India will be deposited in my/our accounts with the prevailing stipulations, laid by the Dhanadhip India Nidhi Limited."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="6) I/We hereby agree that the transactions in the above account will be governed by the applicable laws in India and all disputes or differences arising out of related to or connected with transaction or matters in relation to the above account shall be subject to ‘Jurisdiction of Indian Courts’ and our Jurisprudence is Indore."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="7) Use the secure Application login password and do not share the application password with others."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="8) By using your Login &amp; password customer can easily check their given money, SMS/ Check service provide by Dhanadhip India Nidhi Limited."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="9) After receiving the SMS customer can easily check their main balance amount."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="10) If there is any fault by the customer hand then the obligation will be customer only."
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="11) We agree to be bound by the terms &amp; conditions instruction etc as above and the rules of Dhanadhip India Nidhi Limited and any subsequent amendment(s) .I/We hereby declare that the information furnished is true and correct to the best of my/ our knowledge."
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/paymentFragment">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.dashboard.Dashboard"
+        android:label="Dashboard" />
+    <fragment
+        android:id="@+id/help2"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.help.Help"
+        android:label="Help" />
+    <fragment
+        android:id="@+id/termsAndConditionFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.activity.TermsAndConditionFragment"
+        android:label="Terms &amp; Condition" />
+    <fragment
+        android:id="@+id/DDSFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.DDSFragment"
+        android:label="DDS(Daily Deposit Scheme)" />
+    <fragment
+        android:id="@+id/FDFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.FDFragment"
+        android:label="FD(Fixed Deposit)" />
+    <fragment
+        android:id="@+id/loanFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.LoanFragment"
+        android:label="Loan" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.payment.PaymentFragment"
+        android:label="Payment" />
+    <fragment
+        android:id="@+id/paymentListFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.paymentlist.PaymentListFragment"
+        android:label="Payment List" />
+    <fragment
+        android:id="@+id/RDFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.RDFragment"
+        android:label="RD (Recurring Deposit)" />
+    <fragment
+        android:id="@+id/MISFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.MISFragment"
+        android:label="MIS (Monthly Income Scheme )" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.registration.RegistrationFragment"
+        android:label="Registration" />
+    <fragment
+        android:id="@+id/savingFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.openaccount.SavingFragment"
+        android:label="Saving" />
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.profile.Profile"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/pdfFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.registration.PdfFragment"
+        android:label="PdfFragment" />
+
+    <fragment
+        android:id="@+id/myaccountFragment"
+        android:name="com.creatoweb.peopledevelopment.agent.fragment.myaccount.MyAccount"
+        android:label="MyAccount" />
+</navigation>
